@@ -1,0 +1,36 @@
+.box {
+  margin-top: 100px;
+}
+
+#hands-result,
+#text-result,
+#hands-choice {
+  margin: 40px;
+}
+#hands-choice-text {
+  padding-left: 25px;
+}
+.fa-hand-back-fist,
+.fa-hand,
+.fa-hand-peace {
+  font-size: 100px;
+  color: blueviolet;
+}
+
+.left-hand {
+  transform: rotate(90deg);
+}
+.right-hand {
+  transform: rotate(-90deg);
+}
+.text {
+  color: blueviolet;
+  font-size: 50px;
+}
+.choice {
+  color: rgb(177, 22, 233, 0.6);
+}
+.choice:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
